@@ -1,0 +1,11 @@
+Array??
+collection of variable of same datatypes in contigious memory location..
+why need??
+1.Scalability
+2. Efficiency
+3.Accessibility
+
+
+
+int [] arr; ----> Declaration
+int [] brr = {1,2,3,4,5,6}; ----> Initialisation
