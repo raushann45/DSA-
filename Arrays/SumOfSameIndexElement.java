@@ -19,7 +19,6 @@ public class SumOfSameIndexElement{
            sum[i]=arr1[i]+arr2[i];  
         }
 
-System.out.println(Arrays.toString(sum));
-        
+    System.out.println(Arrays.toString(sum));    
     }
 }
