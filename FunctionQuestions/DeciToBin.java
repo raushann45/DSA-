@@ -12,4 +12,4 @@ public class DeciToBin{
         }
         System.out.println(binary);
     }
-}
+} 

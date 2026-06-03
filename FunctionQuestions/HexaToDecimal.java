@@ -11,6 +11,7 @@ public class HexaToDecimal{
 
        for(int i=0; i<n.length(); i++){
             char ch = n.charAt(i);
+            
        }
         // while(n>0){
         //    int rem = n%10; // retrive digit from last
