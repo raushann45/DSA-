@@ -17,10 +17,15 @@ public class RotatebyKth {
         int n = arr.length;
 
         k = k % n;
-
+        // This is Right rotation 
         reverse(arr, 0, n - 1);
         reverse(arr, 0, k - 1);
-        reverse(arr, k, n - 1);
+        reverse(arr, k, n - 1); 
+        // This  is for Left rotation
+        reverse(arr,0,k-1);
+        reverse(arr,k,n-1);
+        reverse(arr,0,n-1);
+        
     }
 
     public static void main(String[] args) {
